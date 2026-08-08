@@ -1,0 +1,96 @@
+  
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* horizontal scroll khatam */
+  width: 100%;
+}
+  body{
+    background-image:url(dynamic-dj-setup-stockcake.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+ .music-player{
+    text-align:center;
+    background-color:white;
+     margin-left: 1000px;
+     margin-bottom: 300px;
+    background-repeat: no-repeat;
+     border: 5px solid rgb(7, 7, 162);
+    height: 500px;
+    width: 350px;
+    border-radius: 20px 30px 20px 30px;
+    box-shadow: 0px 0px 5px 5px rgb(105, 105, 237);
+  
+    
+ }
+ .blue{
+    color:rgb(3, 3, 48);
+    text-shadow: 2px 2px 4px rgb(127, 127, 239);
+    border-bottom: 2px solid rgb(4, 4, 84);
+    
+   
+ }
+ .gif{
+  width: 100px;
+  height: 60px;
+  color:rgb(96, 96, 189);
+ }  
+ .name
+ {-webkit-text-stroke: 8px solid rgb(24, 24, 237); color:rgb(3, 3, 145)}
+ .platform{ 
+   color:rgb(83, 83, 198);
+ }
+   h2:hover{
+    text-shadow: 2px 2px 5px rgb(96, 96, 154);
+   }
+  .image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 3px rgb(163, 162, 162);
+    border:3px double rgb(45, 5, 148);
+    cursor:pointer;
+   }
+      #headingA{ 
+      background-color:rgb(255, 255, 255);
+      width: 600px;
+      height: 80px;
+      font-size: 60px;
+      text-align: center;
+      background-position: center;
+      border-radius: 10px 10px;
+      padding-top: 10px;
+      margin-top: -650px;
+      margin-left: 140px;
+      font-family:"Nunito Bold";
+      color:rgb(69, 69, 163);
+      -webkit-text-stroke:5px solid rgb(23, 23, 177);
+      text-shadow: 2px 2px 4px rgb(64, 64, 235);
+      border: 6px double rgb(58, 58, 242);
+      box-shadow: 0px 0px 5px 5px rgb(105, 105, 237);
+      cursor:pointer;
+      }
+      #headingA:hover{
+        color:rgb(150, 150, 213);
+        text-shadow: 2px 2px 2px rgb(233, 233, 241);
+        background-color:rgb(7, 7, 184);
+      }
+      #headingB{
+        color:white;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -15px;
+        margin-left: -480px;
+      }
+      #headingB:hover{
+        color:rgb(166, 166, 240);
+        text-shadow: 2px 2px 2px rgb(233, 233, 241);
+      }
+    
